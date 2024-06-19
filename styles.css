@@ -1,0 +1,302 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #000;
+}
+
+/* Section styles */
+section {
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section:nth-of-type(1){
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section:nth-of-type(2){
+    width: 100%; /* Updated width */
+}
+
+section:nth-of-type(3){
+    width: 100%; /* Updated width */
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    max-width: 100%;
+}
+
+/* Main section styles */
+#main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 20px;
+    color: royalblue;
+}
+
+form {
+    margin-bottom: 20px;
+    margin-top: 2em;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 4em;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: royalblue;
+}
+
+button[type="submit"],
+button {
+    background-color: royalblue;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button:hover {
+    background: none;
+    border: 2px solid royalblue;
+    color: royalblue;
+}
+
+/* Expense list styles */
+
+
+.expenses-section {
+    max-width: 100%; /* Adjust as needed */
+    width: 100%; /* Updated width */
+}
+
+.total-row {
+    max-width: 100%; /* Adjust as needed */
+    width: 100%; /* Updated width */
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Modal styles */
+.modal {
+    display: none; /* Hide the modal by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    background-color: palevioletred;
+    padding: 30px 20px 30px 20px;
+    text-align: center;
+    color: white;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5em;
+}
+
+footer div ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#fb, #linkedin{
+    color: royalblue;
+    border: 2px solid royalblue;
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.3em;
+}
+
+#github{
+    color: black;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #f0f0f0;
+}
+
+/* Adjusted CSS for buttons */
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons button {
+    margin-left: 10px;
+}
+
+#expenses-header{
+    text-align: center;
+}
+
+.expenses-section{
+    border: 2px solid black;
+    display: flex;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+}
+
+#output{
+    border-top: none;
+    border-bottom: none;
+}
+
+.col-1{
+    width: 3%;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.col-2{
+    width: 24%;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.col-3{
+    width: 22%;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.col-4{
+    width: 16%;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.col-5{
+    width: 16%;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.col-6{
+    width: 9%;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.col-7{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+#spaced-div{
+    width: 49%;
+}
+
+#action{
+    width: 16%;
+    display: flex;
+    justify-content: center;
+}
